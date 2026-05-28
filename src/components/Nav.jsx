@@ -6,6 +6,12 @@ export default function Nav() {
       <NavLink to="/" end className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
         💱 Converter
       </NavLink>
+      <NavLink to="/prices" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+        💰 Prices
+      </NavLink>
+      <NavLink to="/certificate" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+        📜 Certificate
+      </NavLink>
       <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
         📋 About
       </NavLink>

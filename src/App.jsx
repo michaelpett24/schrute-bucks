@@ -5,6 +5,8 @@ import HeaderLogo from './components/HeaderLogo';
 import Home from './pages/Home';
 import About from './pages/About';
 import FAQ from './pages/FAQ';
+import Prices from './pages/Prices';
+import Certificate from './pages/Certificate';
 
 export default function App() {
   return (
@@ -25,6 +27,8 @@ export default function App() {
       <main>
         <Routes>
           <Route path="/" element={<Home />} />
+          <Route path="/prices" element={<Prices />} />
+          <Route path="/certificate" element={<Certificate />} />
           <Route path="/about" element={<About />} />
           <Route path="/faq" element={<FAQ />} />
         </Routes>

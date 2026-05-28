@@ -586,6 +586,150 @@ body {
   .bureau-header { flex-direction: column; align-items: flex-start; gap: 0.5rem; }
 }
 
+/* ── Prices page ── */
+.prices-filter {
+  display: flex;
+  gap: 0.4rem;
+  flex-wrap: wrap;
+  margin-bottom: 1.25rem;
+}
+.filter-btn {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  font-family: inherit;
+  font-size: 0.72rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  padding: 0.3rem 0.75rem;
+  cursor: pointer;
+  color: var(--ink-light);
+  transition: background 0.15s, border-color 0.15s, color 0.15s;
+}
+.filter-btn:hover { border-color: var(--mustard); color: var(--ink); }
+.filter-btn.active { background: var(--beet); color: #fff; border-color: var(--beet); }
+
+.prices-grid {
+  display: grid;
+  grid-template-columns: 1fr 1fr;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+@media (max-width: 520px) { .prices-grid { grid-template-columns: 1fr; } }
+
+.price-card {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  padding: 1rem 1.1rem;
+  box-shadow: 0 1px 4px var(--shadow);
+  display: flex;
+  flex-direction: column;
+  gap: 0.2rem;
+}
+.price-card-emoji { font-size: 1.75rem; margin-bottom: 0.2rem; }
+.price-card-name {
+  font-size: 0.82rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.05em;
+  color: var(--ink);
+}
+.price-card-sb {
+  font-size: 1.5rem;
+  font-weight: bold;
+  color: var(--beet);
+  line-height: 1;
+  margin-top: 0.2rem;
+}
+.price-card-sb-label {
+  font-size: 0.9rem;
+  font-weight: normal;
+  color: var(--beet);
+}
+.price-card-usd { font-size: 0.75rem; color: var(--ink-light); }
+.price-card-comment {
+  font-size: 0.73rem;
+  font-style: italic;
+  color: var(--ink-light);
+  border-top: 1px dashed var(--border);
+  padding-top: 0.5rem;
+  margin-top: 0.3rem;
+  line-height: 1.55;
+}
+
+/* ── Certificate page ── */
+.certificate-layout {
+  display: grid;
+  grid-template-columns: 260px 1fr;
+  gap: 1.5rem;
+  margin-bottom: 1.5rem;
+  align-items: start;
+}
+@media (max-width: 680px) { .certificate-layout { grid-template-columns: 1fr; } }
+
+.certificate-form-title {
+  font-size: 0.82rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--beet);
+  margin-bottom: 1rem;
+  border-bottom: 1px solid var(--border);
+  padding-bottom: 0.4rem;
+}
+.cert-field { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 0.85rem; }
+.cert-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 0.08em;
+  color: var(--ink-light);
+  font-weight: bold;
+}
+.cert-input {
+  width: 100%;
+  padding: 0.5rem 0.6rem;
+  border: 1px solid var(--border);
+  background: #fffef8;
+  font-family: inherit;
+  font-size: 0.88rem;
+  color: var(--ink);
+  outline: none;
+  transition: border-color 0.15s;
+}
+.cert-input:focus { border-color: var(--mustard); }
+.cert-download-btn {
+  width: 100%;
+  padding: 0.65rem 1rem;
+  background: var(--beet);
+  color: #fff;
+  border: none;
+  font-family: inherit;
+  font-size: 0.8rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  cursor: pointer;
+  margin-top: 0.25rem;
+  transition: background 0.15s;
+}
+.cert-download-btn:hover { background: var(--beet-light); }
+.cert-download-btn:disabled { opacity: 0.6; cursor: not-allowed; }
+.cert-note {
+  font-size: 0.68rem;
+  font-style: italic;
+  color: var(--ink-light);
+  text-align: center;
+  margin-top: 0.5rem;
+  line-height: 1.5;
+}
+.cert-preview-label {
+  font-size: 0.68rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-light);
+  margin-bottom: 0.5rem;
+}
+.certificate-preview-wrap { min-width: 0; }
+.certificate-scroll-wrap { overflow-x: auto; }
+
 /* ── Footer ── */
 .site-footer {
   text-align: center;
@@ -626,9 +770,9 @@ body {
 .nav-link:hover { color: var(--beet); border-color: var(--border); }
 .nav-link.active { color: var(--beet); border-color: var(--beet); font-weight: bold; }
 
-@media (max-width: 480px) {
-  .site-nav { gap: 0.1rem; }
-  .nav-link { font-size: 0.62rem; padding: 0.28rem 0.45rem; letter-spacing: 0.04em; }
+@media (max-width: 560px) {
+  .site-nav { flex-wrap: nowrap; overflow-x: auto; justify-content: flex-start; padding-bottom: 4px; }
+  .nav-link { font-size: 0.6rem; padding: 0.28rem 0.4rem; letter-spacing: 0.03em; white-space: nowrap; }
 }
 
 /* ── Page intro ── */
