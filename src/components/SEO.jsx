@@ -1,8 +1,8 @@
 import { Helmet } from 'react-helmet-async';
 
 const SITE_NAME = 'Schrute Bucks & Stanley Nickels Exchange';
-const SITE_URL = 'https://schrutebucks.app'; // update once deployed
-const OG_IMAGE = 'https://schrutebucks.app/og-image.png';
+const SITE_URL = 'https://relaxed-heliotrope-6334d8.netlify.app'; // update once deployed
+const OG_IMAGE = 'https://relaxed-heliotrope-6334d8.netlify.app/og-image.png';
 const DEFAULT_DESC =
   'Convert Schrute Bucks and Stanley Nickels to real-world currencies like USD, EUR, GBP, and more. The official fan calculator for The Office currency exchange.';
 

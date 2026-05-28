@@ -11,7 +11,7 @@ const jsonLd = {
   datePublished: '2026-05-28',
   dateModified: '2026-05-28',
   author: { '@type': 'Organization', name: 'Schrute Farms LLC' },
-  publisher: { '@type': 'Organization', name: 'Schrute Bucks & Stanley Nickels Exchange', url: 'https://schrutebucks.app' },
+  publisher: { '@type': 'Organization', name: 'Schrute Bucks & Stanley Nickels Exchange', url: 'https://relaxed-heliotrope-6334d8.netlify.app' },
   about: [
     { '@type': 'Thing', name: 'Schrute Bucks' },
     { '@type': 'Thing', name: 'Stanley Nickels' },

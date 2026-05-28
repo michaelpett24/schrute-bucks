@@ -1,6 +1,6 @@
 import { useState } from 'react';
 
-const SITE_URL = 'https://schrutebucks.app'; // update once deployed
+const SITE_URL = 'https://relaxed-heliotrope-6334d8.netlify.app'; // update once deployed
 
 export default function ShareButton({ path = '', text }) {
   const [copied, setCopied] = useState(false);

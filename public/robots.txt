@@ -1,4 +1,4 @@
 User-agent: *
 Allow: /
 
-Sitemap: https://schrutebucks.app/sitemap.xml
+Sitemap: https://relaxed-heliotrope-6334d8.netlify.app/sitemap.xml

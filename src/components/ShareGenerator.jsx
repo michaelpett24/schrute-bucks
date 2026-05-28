@@ -2,7 +2,7 @@ import { useRef, useState } from 'react';
 import html2canvas from 'html2canvas';
 import ShareCard from './ShareCard';
 
-const SITE_URL = 'https://schrutebucks.app';
+const SITE_URL = 'https://relaxed-heliotrope-6334d8.netlify.app';
 
 export default function ShareGenerator({ values, searchParams }) {
   const [open, setOpen] = useState(false);
