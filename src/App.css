@@ -780,6 +780,65 @@ body {
   margin-top: 0.35rem;
 }
 
+/* ── 404 page ── */
+.not-found-card {
+  background: var(--paper);
+  border: 2px solid var(--beet);
+  box-shadow: 0 2px 8px var(--shadow);
+  padding: 3rem 2rem;
+  margin-bottom: 1.5rem;
+  text-align: center;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1rem;
+}
+.not-found-stamp {
+  font-size: 0.65rem;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  border: 2px solid var(--beet);
+  padding: 0.3rem 0.6rem;
+  color: var(--beet);
+  transform: rotate(-3deg);
+  opacity: 0.7;
+}
+.not-found-emoji { font-size: 3.5rem; }
+.not-found-title {
+  font-size: 1.4rem;
+  font-weight: bold;
+  color: var(--beet);
+  text-transform: uppercase;
+  letter-spacing: 0.06em;
+}
+.not-found-body {
+  font-size: 0.9rem;
+  color: var(--ink-light);
+  line-height: 1.7;
+  max-width: 480px;
+  font-style: italic;
+}
+.not-found-meta {
+  font-size: 0.65rem;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  color: var(--ink-light);
+}
+.not-found-btn {
+  display: inline-block;
+  margin-top: 0.5rem;
+  padding: 0.6rem 1.5rem;
+  background: var(--beet);
+  color: #fff;
+  text-decoration: none;
+  font-size: 0.82rem;
+  font-weight: bold;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  transition: background 0.15s;
+}
+.not-found-btn:hover { background: var(--beet-light); }
+
 /* ── Footer ── */
 .site-footer {
   text-align: center;
@@ -788,6 +847,17 @@ body {
   margin-top: 2rem;
   line-height: 1.8;
 }
+.footer-links {
+  margin-top: 0.25rem;
+  display: flex;
+  justify-content: center;
+  gap: 0.75rem;
+}
+.footer-links a {
+  color: var(--ink-light);
+  text-decoration: none;
+}
+.footer-links a:hover { color: var(--beet); text-decoration: underline; }
 
 /* ── Rates footer ── */
 .rates-note {
