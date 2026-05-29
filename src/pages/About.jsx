@@ -42,7 +42,7 @@ export default function About() {
         </p>
         <p>
           Despite Dwight's unwavering belief in their value, Schrute Bucks are worth approximately
-          <strong> one-tenth of one cent</strong> (USD $0.001). In practice, no Dunder Mifflin
+          <strong> one-hundredth of one cent</strong> (USD $0.001). In practice, no Dunder Mifflin
           employee has ever voluntarily redeemed them for anything.
         </p>
 
@@ -94,7 +94,7 @@ export default function About() {
 
         <h2 className="content-h2">How Much Is a Schrute Buck Worth?</h2>
         <p>
-          In real-money terms, Dwight pegged one Schrute Buck at roughly one-tenth of a cent —
+          In real-money terms, Dwight pegged one Schrute Buck at one-hundredth of a cent —
           meaning <strong>1,000 Schrute Bucks = $1.00 USD</strong>. Use our{' '}
           <Link to="/">Schrute Bucks converter</Link> to see exactly how little your Schrute
           Bucks are worth in USD, EUR, GBP, JPY, and other real currencies.
@@ -115,7 +115,7 @@ export default function About() {
 
         <ShareButton
           path="/about"
-          text="Schrute Bucks explained: worth 1/10th of a cent, accepted nowhere. Stanley Nickels: even worse. The Office fan deep dive 🥬🪙"
+          text="Schrute Bucks explained: worth 1/100th of a cent, accepted nowhere. Stanley Nickels: even worse. The Office fan deep dive 🥬🪙"
         />
       </article>
     </>
