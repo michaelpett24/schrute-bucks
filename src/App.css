@@ -657,27 +657,26 @@ body {
 }
 
 /* ── Certificate page ── */
-.certificate-layout {
-  display: grid;
-  grid-template-columns: 260px 1fr;
-  gap: 1.5rem;
-  margin-bottom: 1.5rem;
-  align-items: start;
-}
-@media (max-width: 680px) { .certificate-layout { grid-template-columns: 1fr; } }
+.cert-form-card { margin-bottom: 1rem; }
 
-.certificate-form-title {
-  font-size: 0.82rem;
-  text-transform: uppercase;
-  letter-spacing: 0.1em;
-  color: var(--beet);
-  margin-bottom: 1rem;
-  border-bottom: 1px solid var(--border);
-  padding-bottom: 0.4rem;
+.cert-form-row {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-end;
+  flex-wrap: wrap;
 }
-.cert-field { display: flex; flex-direction: column; gap: 0.3rem; margin-bottom: 0.85rem; }
+.cert-field {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  flex: 1;
+  min-width: 120px;
+}
+.cert-field-amount { flex: 0 0 140px; }
+.cert-field-reason { flex: 2; }
+
 .cert-label {
-  font-size: 0.7rem;
+  font-size: 0.68rem;
   text-transform: uppercase;
   letter-spacing: 0.08em;
   color: var(--ink-light);
@@ -695,9 +694,16 @@ body {
   transition: border-color 0.15s;
 }
 .cert-input:focus { border-color: var(--mustard); }
+
+.cert-actions {
+  margin-top: 1rem;
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+  flex-wrap: wrap;
+}
 .cert-download-btn {
-  width: 100%;
-  padding: 0.65rem 1rem;
+  padding: 0.6rem 1.5rem;
   background: var(--beet);
   color: #fff;
   border: none;
@@ -707,19 +713,19 @@ body {
   text-transform: uppercase;
   letter-spacing: 0.1em;
   cursor: pointer;
-  margin-top: 0.25rem;
+  white-space: nowrap;
   transition: background 0.15s;
 }
 .cert-download-btn:hover { background: var(--beet-light); }
 .cert-download-btn:disabled { opacity: 0.6; cursor: not-allowed; }
 .cert-note {
-  font-size: 0.68rem;
+  font-size: 0.72rem;
   font-style: italic;
   color: var(--ink-light);
-  text-align: center;
-  margin-top: 0.5rem;
   line-height: 1.5;
 }
+
+.cert-preview-section { margin-bottom: 1.5rem; }
 .cert-preview-label {
   font-size: 0.68rem;
   text-transform: uppercase;
@@ -727,8 +733,17 @@ body {
   color: var(--ink-light);
   margin-bottom: 0.5rem;
 }
-.certificate-preview-wrap { min-width: 0; }
-.certificate-scroll-wrap { overflow-x: auto; }
+.cert-preview-scroll {
+  overflow-x: auto;
+  border: 1px solid var(--border);
+  box-shadow: 0 2px 8px var(--shadow);
+}
+
+@media (max-width: 560px) {
+  .cert-form-row { flex-direction: column; }
+  .cert-field-amount { flex: 1; min-width: 0; }
+  .cert-actions { flex-direction: column; align-items: flex-start; }
+}
 
 /* ── Footer ── */
 .site-footer {

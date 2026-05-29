@@ -12,9 +12,9 @@ const jsonLd = {
 };
 
 export default function Certificate() {
-  const [name, setName]       = useState('');
-  const [amount, setAmount]   = useState('');
-  const [reason, setReason]   = useState('');
+  const [name, setName]     = useState('');
+  const [amount, setAmount] = useState('');
+  const [reason, setReason] = useState('');
   const [capturing, setCapturing] = useState(false);
   const cardRef = useRef(null);
 
@@ -51,15 +51,14 @@ export default function Certificate() {
       <div className="page-intro">
         <p>
           Award Schrute Bucks to anyone who deserves recognition — or to yourself, which
-          Dwight says is "statistically the most common use case." Fill in the details and
-          download your official certificate.
+          Dwight says is "statistically the most common use case." Fill in the details,
+          preview your certificate, and download it as a PNG.
         </p>
       </div>
 
-      <div className="certificate-layout">
-        <div className="card certificate-form-card">
-          <h3 className="certificate-form-title">Fill in the details</h3>
-
+      {/* Form */}
+      <div className="card cert-form-card">
+        <div className="cert-form-row">
           <div className="cert-field">
             <label className="cert-label">Recipient name</label>
             <input
@@ -71,9 +70,8 @@ export default function Certificate() {
               maxLength={40}
             />
           </div>
-
-          <div className="cert-field">
-            <label className="cert-label">Amount of Schrute Bucks</label>
+          <div className="cert-field cert-field-amount">
+            <label className="cert-label">Schrute Bucks awarded</label>
             <input
               className="cert-input"
               type="text"
@@ -84,8 +82,7 @@ export default function Certificate() {
               maxLength={20}
             />
           </div>
-
-          <div className="cert-field">
+          <div className="cert-field cert-field-reason">
             <label className="cert-label">Reason for award</label>
             <input
               className="cert-input"
@@ -96,21 +93,21 @@ export default function Certificate() {
               maxLength={80}
             />
           </div>
+        </div>
 
+        <div className="cert-actions">
           <button className="cert-download-btn" onClick={download} disabled={capturing}>
             {capturing ? 'Generating…' : '⬇ Download Certificate'}
           </button>
-
-          <p className="cert-note">
-            Print it. Frame it. Give it to someone who will not appreciate it.
-          </p>
+          <p className="cert-note">Print it. Frame it. Give it to someone who will not appreciate it.</p>
         </div>
+      </div>
 
-        <div className="certificate-preview-wrap">
-          <p className="cert-preview-label">Preview</p>
-          <div className="certificate-scroll-wrap">
-            <CertificateCard ref={cardRef} name={name} amount={amount} reason={reason} date={today} />
-          </div>
+      {/* Certificate preview */}
+      <div className="cert-preview-section">
+        <p className="cert-preview-label">Preview — updates as you type</p>
+        <div className="cert-preview-scroll">
+          <CertificateCard ref={cardRef} name={name} amount={amount} reason={reason} date={today} />
         </div>
       </div>
     </>
