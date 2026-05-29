@@ -61,7 +61,7 @@ export default function About() {
         </p>
         <p>
           When Dwight asked about their value, Stanley delivered one of <em>The Office</em>'s
-          most quoted lines:
+          most quoted exchanges — from <strong>Season 3, Episode 23: "The Job"</strong> (aired May 10, 2007):
         </p>
 
         <blockquote className="content-quote">
@@ -74,6 +74,9 @@ export default function About() {
           <p><strong>Dwight:</strong> "What's the ratio of Stanley Nickels to Schrute Bucks?"</p>
           <p><strong>Stanley:</strong> "The same as the ratio of unicorns to leprechauns."</p>
         </blockquote>
+        <p style={{ fontSize: '0.78rem', color: 'var(--ink-light)', fontStyle: 'italic' }}>
+          (Dialogue approximate — watch "The Job" S3E23 for the full scene.)
+        </p>
 
         <h2 className="content-h2">Episodes Featuring Schrute Bucks</h2>
         <p>

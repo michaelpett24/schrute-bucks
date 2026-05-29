@@ -26,7 +26,7 @@ const QUOTES = [
     author: "Dwight K. Schrute",
   },
   {
-    text: "Before I do anything, I ask myself, 'Would an idiot do this?' And if the answer is yes, I do not do that thing.",
+    text: "Would an idiot do that? And if the answer is yes, I do not do that thing.",
     author: "Dwight K. Schrute",
   },
   {
@@ -54,7 +54,7 @@ const QUOTES = [
     author: "Stanley Hudson",
   },
   {
-    text: "Why waste time say lot word when few word do trick?",
+    text: "Why waste time say lot word when few word do trick.",
     author: "Kevin Malone",
   },
   {
@@ -66,7 +66,7 @@ const QUOTES = [
     author: "Michael Scott",
   },
   {
-    text: "In the wild, there is no healthcare. Healthcare is: 'Oh, I broke my leg!' A lion comes and eats you, you're dead. Well, I'm not dead. I'm the lion.",
+    text: "In the wild, there is no healthcare. In the wild, healthcare is, 'Ow, I hurt my leg. I can't run. A lion eats me and I'm dead.' Well, I'm not dead.",
     author: "Dwight K. Schrute",
   },
   {

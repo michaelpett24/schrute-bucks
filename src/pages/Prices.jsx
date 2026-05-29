@@ -19,9 +19,9 @@ const ITEMS = [
   { category: 'Entertainment', emoji: '📺', name: 'Netflix (monthly)', usd: 15.99, comment: "Meredith's entire Friday night. Sometimes Thursday. Occasionally Wednesday." },
   { category: 'Entertainment', emoji: '🎬', name: 'Movie Ticket', usd: 15.00, comment: "Michael has seen Threat Level Midnight 47 times. He cries at the same part every time." },
   { category: 'Entertainment', emoji: '🎵', name: 'Spotify (monthly)', usd: 10.99, comment: "Andy would rather perform live. You did not ask for that." },
-  { category: 'Entertainment', emoji: '🎤', name: 'Concert Ticket', usd: 350.00, comment: "Jim spent this to impress Pam at a show. It worked. He will never admit how much it cost." },
+  { category: 'Entertainment', emoji: '🎤', name: 'Concert Ticket', usd: 350.00, comment: "Andy Bernard would rather perform live for free. You did not ask for an a cappella performance. He will give you one anyway." },
   { category: 'Entertainment', emoji: '🎮', name: 'PlayStation 5', usd: 499.00, comment: "Jim has completed every game on here. Dwight has never heard of it and does not care." },
-  { category: 'Entertainment', emoji: '🎲', name: 'Dungeons & Dragons Set', usd: 45.00, comment: "Dwight runs a campaign every other Tuesday. Michael always insists on playing a wizard named Mike Scarn." },
+  { category: 'Entertainment', emoji: '⚔️', name: 'LARP Equipment Set', usd: 45.00, comment: "Dwight participates in live-action roleplay. He takes it extremely seriously. This is not a surprise to anyone." },
 
   // Tech & Gadgets
   { category: 'Tech & Gadgets', emoji: '📱', name: 'iPhone 16', usd: 999.00, comment: "Ryan would use this to launch another startup. It would fail in 18 months. Again." },
@@ -39,13 +39,14 @@ const ITEMS = [
   { category: 'Real Estate', emoji: '🏠', name: 'Average US Home', usd: 420000, comment: "Michael bought a condo once with a mortgage he didn't fully understand. It was not fine." },
   { category: 'Real Estate', emoji: '🌾', name: 'Schrute Farms (est.)', usd: 750000, comment: "Appraised value disputed. Dwight believes it is worth significantly more. He is wrong." },
   { category: 'Real Estate', emoji: '🏙', name: 'NYC Studio Apartment', usd: 800000, comment: "Ryan moved here after his promotion. He was not ready. The city knew immediately." },
-  { category: 'Real Estate', emoji: '🏢', name: 'Dunder Mifflin Scranton', usd: 2500000, comment: "Sabre acquired it for less than this. That should tell you something about paper's future." },
+  { category: 'Real Estate', emoji: '🏢', name: 'Dunder Mifflin Scranton', usd: 2500000, comment: "Sabre acquired all of Dunder Mifflin for less than this. That should tell you something about paper's future." },
 
   // The Office
   { category: 'The Office', emoji: '☕', name: "World's Best Boss Mug", usd: 14.99, comment: "Michael bought this for himself. First day on the job. Has never once been questioned." },
   { category: 'The Office', emoji: '🏆', name: 'Dundie Award', usd: 12.00, comment: "Pam won Whitest Sneakers. She cried. It was a confusing night for everyone involved." },
   { category: 'The Office', emoji: '📄', name: 'Ream of Paper (DM)', usd: 45.00, comment: "The backbone of the Scranton economy. Dwight moves 1,000 units weekly. He is very proud." },
   { category: 'The Office', emoji: '🥄', name: "Kevin's Famous Chili", usd: 8.00, comment: "The secret is undercooking the onions. This has been disputed. Kevin is unavailable for comment." },
+  { category: 'The Office', emoji: '🐱', name: "Angela's Annual Vet Bills", usd: 4800.00, comment: "Angela owns at least 12 cats including Princess Lady, Mr. Sprinkles, and Garbage. Dwight once put one in a freezer. This caused significant problems." },
 ];
 
 const CATEGORIES = ['All', ...Array.from(new Set(ITEMS.map(i => i.category)))];

@@ -23,7 +23,7 @@ const FAQS = [
   },
   {
     q: 'What episode of The Office features Schrute Bucks?',
-    a: 'Schrute Bucks appear in multiple episodes of The Office across several seasons as a recurring joke. The famous Stanley Nickels exchange is one of the most quoted scenes in the series and became a major fan-favorite moment.',
+    a: 'The most famous Schrute Bucks scene — including the Stanley Nickels exchange — is from Season 3, Episode 23: "The Job" (aired May 10, 2007). Schrute Bucks also appear as a recurring joke across multiple other seasons as part of Dwight\'s ongoing attempts to establish authority at the Scranton branch.',
   },
   {
     q: 'Who invented Schrute Bucks?',

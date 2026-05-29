@@ -72,8 +72,8 @@ export default function StanleyNickelBureau({ schruteBucks }) {
       <div className="bureau-methodology">
         <div className="methodology-label">METHODOLOGY</div>
         <blockquote className="bureau-quote">
-          "The ratio of Stanley Nickels to Schrute Bucks is the same as the ratio of unicorns to leprechauns."
-          <cite>— Stanley Hudson, Dunder Mifflin Senior Sales Representative</cite>
+          "The same as the ratio of unicorns to leprechauns."
+          <cite>— Stanley Hudson, Dunder Mifflin Sales Representative</cite>
         </blockquote>
         <p className="methodology-body">
           The unicorn is Scotland's official national animal, of which there is <strong>one</strong> (national, singular).
