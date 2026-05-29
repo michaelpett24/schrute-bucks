@@ -56,7 +56,7 @@ export default function Disclaimer() {
           should not be used for actual financial decisions.
         </p>
         <p>
-          The value of Schrute Bucks ($0.001 USD) is based on lore from the show and is not
+          The value of Schrute Bucks ($0.0001 USD) is based on lore from the show and is not
           guaranteed by any government, central bank, or the full faith and credit of Schrute
           Farms, regardless of what Dwight says.
         </p>

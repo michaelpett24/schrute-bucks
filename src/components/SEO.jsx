@@ -32,14 +32,14 @@ export default function SEO({ title, description, path = '', type = 'website', j
       <meta property="og:image" content={OG_IMAGE} />
       <meta property="og:image:width" content="1200" />
       <meta property="og:image:height" content="630" />
-      <meta property="og:image:alt" content="Schrute Bucks Exchange — 1,000 Schrute Bucks = $1.00 USD" />
+      <meta property="og:image:alt" content="Schrute Bucks Exchange — 10,000 Schrute Bucks = $1.00 USD" />
 
       {/* Twitter Card */}
       <meta name="twitter:card" content="summary_large_image" />
       <meta name="twitter:title" content={fullTitle} />
       <meta name="twitter:description" content={desc} />
       <meta name="twitter:image" content={OG_IMAGE} />
-      <meta name="twitter:image:alt" content="Schrute Bucks Exchange — 1,000 Schrute Bucks = $1.00 USD" />
+      <meta name="twitter:image:alt" content="Schrute Bucks Exchange — 10,000 Schrute Bucks = $1.00 USD" />
 
       {/* JSON-LD structured data */}
       {jsonLd && (

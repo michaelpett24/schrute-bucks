@@ -105,7 +105,7 @@ export default function Salary() {
         <h2 className="content-h2">What Is Your Salary in Schrute Bucks?</h2>
         <p style={{ marginBottom: '1.5rem', color: 'var(--ink-light)' }}>
           Enter your income below. We'll convert it to Schrute Bucks using the official rate of
-          $0.001 USD per Schrute Buck — as established by the full faith and credit of Schrute Farms.
+          $0.0001 USD per Schrute Buck — as established by the full faith and credit of Schrute Farms.
         </p>
 
         {/* Input section */}
@@ -170,7 +170,7 @@ export default function Salary() {
             </div>
 
             <div className="salary-note">
-              1,000 Schrute Bucks = $1.00 USD &nbsp;·&nbsp; Use the <Link to="/">converter</Link> for any custom amount
+              10,000 Schrute Bucks = $1.00 USD &nbsp;·&nbsp; Use the <Link to="/">converter</Link> for any custom amount
             </div>
           </>
         )}
