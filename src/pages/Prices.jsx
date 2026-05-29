@@ -2,6 +2,7 @@ import { useState } from 'react';
 import { Link } from 'react-router-dom';
 import SEO from '../components/SEO';
 import ShareButton from '../components/ShareButton';
+import ShopBanner from '../components/ShopBanner';
 
 const SB_RATE = 0.001;
 
@@ -111,6 +112,8 @@ export default function Prices() {
           );
         })}
       </div>
+
+      <ShopBanner />
 
       <ShareButton
         path="/prices"

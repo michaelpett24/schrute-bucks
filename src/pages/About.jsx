@@ -1,5 +1,6 @@
 import SEO from '../components/SEO';
 import ShareButton from '../components/ShareButton';
+import ShopBanner from '../components/ShopBanner';
 import { Link } from 'react-router-dom';
 
 const jsonLd = {
@@ -106,6 +107,8 @@ export default function About() {
           Stanley Nickels. Our <strong>Stanley Nickel Exchange Bureau</strong> lets you set your
           own unicorn-to-leprechaun ratio based on your own field research.
         </p>
+
+        <ShopBanner />
 
         <ShareButton
           path="/about"

@@ -1,5 +1,6 @@
 import SEO from '../components/SEO';
 import ShareButton from '../components/ShareButton';
+import ShopBanner from '../components/ShopBanner';
 import { Link } from 'react-router-dom';
 import { useState } from 'react';
 
@@ -94,6 +95,8 @@ export default function FAQ() {
             </div>
           ))}
         </div>
+
+        <ShopBanner />
 
         <ShareButton
           path="/faq"

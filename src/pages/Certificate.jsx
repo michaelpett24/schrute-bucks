@@ -2,6 +2,7 @@ import { useRef, useState } from 'react';
 import html2canvas from 'html2canvas';
 import SEO from '../components/SEO';
 import CertificateCard from '../components/CertificateCard';
+import ShopBanner from '../components/ShopBanner';
 
 const jsonLd = {
   '@context': 'https://schema.org',
@@ -102,6 +103,8 @@ export default function Certificate() {
           <p className="cert-note">Print it. Frame it. Give it to someone who will not appreciate it.</p>
         </div>
       </div>
+
+      <ShopBanner />
 
       {/* Certificate preview */}
       <div className="cert-preview-section">
