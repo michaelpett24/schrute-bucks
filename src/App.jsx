@@ -9,6 +9,7 @@ import Prices from './pages/Prices';
 import Certificate from './pages/Certificate';
 import Privacy from './pages/Privacy';
 import Disclaimer from './pages/Disclaimer';
+import Salary from './pages/Salary';
 import NotFound from './pages/NotFound';
 
 export default function App() {
@@ -36,6 +37,7 @@ export default function App() {
           <Route path="/faq" element={<FAQ />} />
           <Route path="/privacy" element={<Privacy />} />
           <Route path="/disclaimer" element={<Disclaimer />} />
+          <Route path="/salary" element={<Salary />} />
           <Route path="*" element={<NotFound />} />
         </Routes>
       </main>

@@ -12,6 +12,9 @@ export default function Nav() {
       <NavLink to="/certificate" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
         📜 Certificate
       </NavLink>
+      <NavLink to="/salary" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
+        💼 Salary
+      </NavLink>
       <NavLink to="/about" className={({ isActive }) => isActive ? 'nav-link active' : 'nav-link'}>
         📋 About
       </NavLink>
