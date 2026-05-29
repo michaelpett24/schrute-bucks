@@ -745,6 +745,41 @@ body {
   .cert-actions { flex-direction: column; align-items: flex-start; }
 }
 
+/* ── Shop Banner ── */
+.shop-banner {
+  background: var(--paper);
+  border: 1px solid var(--border);
+  border-left: 3px solid var(--mustard);
+  padding: 0.75rem 1.25rem;
+  margin-bottom: 1.5rem;
+  box-shadow: 0 1px 4px var(--shadow);
+}
+.shop-banner-label {
+  font-size: 0.6rem;
+  text-transform: uppercase;
+  letter-spacing: 0.14em;
+  color: var(--ink-light);
+  margin-bottom: 0.4rem;
+}
+.shop-banner-link {
+  display: inline-flex;
+  align-items: center;
+  gap: 0.5rem;
+  text-decoration: none;
+  color: var(--beet);
+  font-size: 0.88rem;
+  font-weight: bold;
+  transition: color 0.15s;
+}
+.shop-banner-link:hover { color: var(--beet-light); text-decoration: underline; }
+.shop-banner-emoji { font-size: 1.1rem; }
+.shop-banner-sub {
+  font-size: 0.6rem;
+  color: var(--ink-light);
+  font-style: italic;
+  margin-top: 0.35rem;
+}
+
 /* ── Footer ── */
 .site-footer {
   text-align: center;

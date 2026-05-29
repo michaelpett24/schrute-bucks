@@ -7,6 +7,7 @@ import WorthinessBar from '../components/WorthinessBar';
 import ShareButton from '../components/ShareButton';
 import ShareGenerator from '../components/ShareGenerator';
 import StanleyNickelBureau from '../components/StanleyNickelBureau';
+import ShopBanner from '../components/ShopBanner';
 
 const RATE_API = 'https://open.er-api.com/v6/latest/USD';
 
@@ -84,6 +85,8 @@ export default function Home() {
         path="/"
         text="How many Schrute Bucks do you have? Convert them to real money — plus set your own unicorn:leprechaun ratio for Stanley Nickels 🥬🍀"
       />
+
+      <ShopBanner />
 
       <QuoteCarousel />
     </>
