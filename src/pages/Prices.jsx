@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 import ShareButton from '../components/ShareButton';
 import ShopBanner from '../components/ShopBanner';
 
-const SB_RATE = 0.001;
+const SB_RATE = 0.0001;
 
 const ITEMS = [
   // Food & Drink
@@ -81,7 +81,7 @@ export default function Prices() {
 
       <div className="page-intro">
         <p>
-          One Schrute Buck = $0.001 USD. So how far do they actually go? Browse below to see
+          One Schrute Buck = $0.0001 USD. So how far do they actually go? Browse below to see
           what everyday things cost in Schrute Bucks — or use the <Link to="/">converter</Link> for
           any custom amount.
         </p>
@@ -118,7 +118,7 @@ export default function Prices() {
 
       <ShareButton
         path="/prices"
-        text="How many Schrute Bucks does everyday stuff cost? A Starbucks latte = 6,500 SB. A house = 420M SB. The Office fan price guide 🥬"
+        text="How many Schrute Bucks does everyday stuff cost? A Starbucks latte = 65,000 SB. A house = 4.2B SB. The Office fan price guide 🥬"
       />
     </>
   );

@@ -42,12 +42,20 @@ export default function About() {
         </p>
         <p>
           Despite Dwight's unwavering belief in their value, Schrute Bucks are worth approximately
-          <strong> one-hundredth of one cent</strong> (USD $0.001). In practice, no Dunder Mifflin
+          <strong> one-hundredth of one cent</strong> (USD $0.0001). In practice, no Dunder Mifflin
           employee has ever voluntarily redeemed them for anything.
         </p>
 
+        <blockquote className="content-quote">
+          <p><strong>Dwight:</strong> "When you have done something good, you will receive one Schrute Buck! One thousand Schrute Bucks equals an extra five minutes for lunch."</p>
+          <p><strong>Pam:</strong> "What is the cash value of a Schrute Buck?"</p>
+          <p><strong>Dwight:</strong> "Excellent question, Pam! 1/100th of a cent."</p>
+          <p><strong>Oscar:</strong> <em>"So… ten thousand of your dollars is worth one real dollar?"</em></p>
+          <p><strong>Dwight:</strong> "Just… zip your lid!"</p>
+        </blockquote>
+
         <div className="content-callout">
-          <strong>Exchange Rate:</strong> 1 Schrute Buck = $0.001 USD
+          <strong>Exchange Rate:</strong> 1 Schrute Buck = $0.0001 USD
           <br />
           <strong>Accepted at:</strong> Schrute Farms (Bed &amp; Breakfast). Nowhere else.
         </div>
@@ -94,8 +102,8 @@ export default function About() {
 
         <h2 className="content-h2">How Much Is a Schrute Buck Worth?</h2>
         <p>
-          In real-money terms, Dwight pegged one Schrute Buck at one-hundredth of a cent —
-          meaning <strong>1,000 Schrute Bucks = $1.00 USD</strong>. Use our{' '}
+          In real-money terms, Dwight stated one Schrute Buck is worth 1/100th of a cent —
+          meaning <strong>10,000 Schrute Bucks = $1.00 USD</strong>. Use our{' '}
           <Link to="/">Schrute Bucks converter</Link> to see exactly how little your Schrute
           Bucks are worth in USD, EUR, GBP, JPY, and other real currencies.
         </p>

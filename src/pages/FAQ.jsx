@@ -11,7 +11,7 @@ const FAQS = [
   },
   {
     q: 'How much is one Schrute Buck worth in real money?',
-    a: 'One Schrute Buck is worth $0.001 USD — one-hundredth of one cent. That means you need 1,000 Schrute Bucks to equal $1.00. In Dwight\'s words, they are a robust monetary system backed by the full faith and credit of Schrute Farms.',
+    a: 'One Schrute Buck is worth $0.0001 USD — one-hundredth of one cent. That means you need 10,000 Schrute Bucks to equal $1.00. Confirmed by Dwight himself: "Excellent question, Pam! 1/100th of a cent." Oscar immediately calculated: "So... ten thousand of your dollars is worth one real dollar?"',
   },
   {
     q: 'What is a Stanley Nickel?',
@@ -39,7 +39,7 @@ const FAQS = [
   },
   {
     q: 'How many Schrute Bucks equal a dollar?',
-    a: '1,000 Schrute Bucks equal $1.00 USD. Or put another way, 100,000 Schrute Bucks equals $100 — roughly the cost of three reams of Dunder Mifflin premium paper.',
+    a: '10,000 Schrute Bucks equal $1.00 USD. Or put another way, 1,000,000 Schrute Bucks equals $100 — roughly the cost of three reams of Dunder Mifflin premium paper.',
   },
   {
     q: 'What TV show are Schrute Bucks from?',

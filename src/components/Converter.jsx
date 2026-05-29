@@ -10,7 +10,7 @@ const REAL_CURRENCY_FLAGS = {
 
 const WHOLE_NUMBER_CURRENCIES = new Set(['JPY', 'INR', 'MXN']);
 
-const SB_USD_RATE = 0.001; // 1 Schrute Buck = $0.001
+const SB_USD_RATE = 0.0001; // 1 Schrute Buck = 1/100th of a cent (per Dwight, S3E23)
 
 const COMMENTS = [
   (sb) => sb >= 1000000 ? `${sb.toLocaleString()} Schrute Bucks. Dwight is almost impressed.` : null,

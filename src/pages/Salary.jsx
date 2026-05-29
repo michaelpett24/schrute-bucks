@@ -4,7 +4,7 @@ import SEO from '../components/SEO';
 import ShareButton from '../components/ShareButton';
 import ShopBanner from '../components/ShopBanner';
 
-const SB_RATE = 0.001;
+const SB_RATE = 0.0001;
 
 function fmtSB(n) {
   if (n >= 1_000_000_000_000) return `${(n / 1_000_000_000_000).toFixed(1)} trillion`;

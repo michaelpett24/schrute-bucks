@@ -39,7 +39,7 @@ export default function StanleyNickelBureau({ schruteBucks }) {
   const [ratio, setRatio] = useState(IFC_RATIO);
 
   const stanleyNickels = schruteBucks * ratio;
-  const snUsdValue     = 0.001 / ratio; // 1 SN in USD
+  const snUsdValue     = 0.0001 / ratio; // 1 SN in USD
 
   function handleSlider(e) {
     setRatio(Number(e.target.value));
