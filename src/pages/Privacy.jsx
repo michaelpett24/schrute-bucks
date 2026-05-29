@@ -91,8 +91,9 @@ export default function Privacy() {
 
         <h2 className="content-h2">Contact</h2>
         <p>
-          Questions about this privacy policy? You can reach us via schrutebucks.lol.
-          Dwight may or may not respond depending on whether he is conducting a fire drill.
+          This is a solo fan project with no contact form or support channel. For privacy
+          concerns related to Google Analytics, please use Google's own opt-out tools linked
+          above. For Amazon-related concerns, contact Amazon directly.
         </p>
       </article>
     </>
